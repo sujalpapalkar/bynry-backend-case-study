@@ -67,4 +67,4 @@ This solution focuses on building a **robust, scalable, and production-ready bac
 
 
 ## 📄 Case Study Document
-Google Doc Link: https://docs.google.com/document/d13UBsr6t-58GdVWz9c9LBxTbWziQ5CF7L60gFA997AW4/edit?usp=sharing
+Google Doc Link: https://docs.google.com/document/d/13UBsr6t-58GdVWz9c9LBxTbWziQ5CF7L60gFA997AW4/edit?usp=sharing
