@@ -1,21 +1,66 @@
-# Bynry Backend Intern Case Study - Sujal Papalkar
+# Bynry Backend Engineering Intern Case Study
+**Candidate:** Sujal Papalkar  
 
-## Overview
-This repository contains solutions for:
-- Code Review & Debugging
-- Database Design
-- API Implementation
+---
 
-## Tech Stack
+## 📌 Overview
+This repository contains my solutions to the Bynry Backend Engineering Intern Case Study.
+
+The case study evaluates:
+- Code debugging and best practices
+- Database design and scalability
+- API development and business logic handling
+
+---
+
+## 🧩 Solution Breakdown
+
+### 🔹 Part 1: Code Review & Debugging
+- Identified issues like lack of validation, no transaction handling, and SKU duplication risks
+- Implemented fixes ensuring:
+  - Data consistency
+  - Atomic transactions
+  - Proper error handling
+
+---
+
+### 🔹 Part 2: Database Design
+- Designed normalized schema supporting:
+  - Multi-warehouse inventory
+  - Supplier relationships
+  - Inventory tracking logs
+- Added constraints and indexing for scalability
+
+---
+
+### 🔹 Part 3: Low Stock Alert API
+- Implemented API to:
+  - Detect low inventory
+  - Handle multiple warehouses
+  - Include supplier details
+- Considered edge cases and performance concerns
+
+---
+
+## ⚙️ Tech Stack
 - Python (Flask)
-- SQL
+- SQL (Relational Database Design)
 
-## Key Highlights
-- Implemented transaction-safe product creation
-- Designed scalable database schema
-- Built low-stock alert API
+---
 
-## Assumptions
-- Fixed stock threshold
-- Sales data available
-- Each product has supplier
+## 🧠 Key Highlights
+- Focus on **scalability and real-world constraints**
+- Ensured **data integrity using transactions**
+- Designed with **future extensibility in mind**
+
+---
+
+## ⚠️ Assumptions
+- Fixed low-stock threshold
+- Sales data availability assumed
+- One primary supplier per product
+
+---
+
+## 🚀 Conclusion
+This solution focuses on building a **robust, scalable, and production-ready backend system**, while handling incomplete requirements through logical assumptions.
